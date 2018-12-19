@@ -5,12 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="a5fb2e0b117344f7a0f7b8c26e75f1a2" Name="Diagram1">
-        <EntityTypeShape EntityType="ProjectManagerDBModel.tblUser" Width="1.5" PointX="5.75" PointY="0.75" />
-        <EntityTypeShape EntityType="ProjectManagerDBModel.tblParent" Width="1.5" PointX="0.75" PointY="5.375" />
-        <EntityTypeShape EntityType="ProjectManagerDBModel.tblProject" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="ProjectManagerDBModel.tblTask" Width="1.5" PointX="3" PointY="4.5" />
-        <AssociationConnector Association="ProjectManagerDBModel.FK__tblTask__ParentI__31EC6D26" />
-        <AssociationConnector Association="ProjectManagerDBModel.FK__tblTask__Project__30F848ED" />
+        <EntityTypeShape EntityType="ProjectManagerDBModel.tblParent" Width="1.5" PointX="0.75" PointY="1.125" />
+        <EntityTypeShape EntityType="ProjectManagerDBModel.tblProject" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="ProjectManagerDBModel.tblTask" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="ProjectManagerDBModel.tblUser" Width="1.5" PointX="5.375" PointY="2.25" />
+        <AssociationConnector Association="ProjectManagerDBModel.FK__tblTask__ParentI__3D5E1FD2" />
+        <AssociationConnector Association="ProjectManagerDBModel.FK__tblTask__Project__3C69FB99" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

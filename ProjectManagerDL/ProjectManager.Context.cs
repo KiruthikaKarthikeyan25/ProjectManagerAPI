@@ -25,9 +25,9 @@ namespace ProjectManagerDL
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tblUser> tblUsers { get; set; }
         public virtual DbSet<tblParent> tblParents { get; set; }
         public virtual DbSet<tblProject> tblProjects { get; set; }
         public virtual DbSet<tblTask> tblTasks { get; set; }
+        public virtual DbSet<tblUser> tblUsers { get; set; }
     }
 }
